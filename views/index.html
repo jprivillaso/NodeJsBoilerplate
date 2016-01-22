@@ -12,9 +12,12 @@
         <script type="text/javascript" src="bower_components/angular-route/angular-route.min.js"></script>
         <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     </head>
-    <body ng-app="MyApp">
+    <body ng-app="MyApp" ng-controller="MainController">
         <h1 id="title">MyApp</h1>
+        <button ng-click="requestUsers()">Request Users</button>
+        <div id="tree" style="width: 100%; height: 600px;"></div>
         <!-- Vendor Scripts -->
+        <script type="text/javascript" src="js/vendor/d3/d3.min.js"></script>
         <!-- Custom Scripts -->
         <script type="text/javascript" src="js/main.js"></script>
         <!-- Controllers -->

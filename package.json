@@ -3,11 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www",
-    "test": "karma start karma.conf.js",
-    "postinstall": "bower install",
-    "prestart": "npm install",
-    "pretest": "npm install"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "angular": "^1.4.7",
